@@ -170,20 +170,20 @@ input[type=submit] {
 /* skill  */
 .wrapper{
 
-    width: 340px;
+    width: 191px;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
-    padding: 0px 204px 0 0px;
+    padding: 0px 390px 0 0px;
 
 }
 .skill {
-    margin-bottom: 18px;
+    margin-bottom: 9px;
     position: relative;
   overflow-x:hidden;
   
 }
 .skill > p {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 700;
     color: #1a1716;
     margin: 0;
@@ -212,10 +212,10 @@ input[type=submit] {
 }
 .skill-bar span{
     position: absolute;
-    border-top: 5px solid #251291;
+    border-top: 4px solid #251291;
     top: -26px;
     padding: 0;
-    font-size: 13px;
+    font-size: 9px;
     padding: 3px 0;
     font-weight: 500;
 }
