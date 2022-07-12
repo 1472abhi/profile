@@ -170,20 +170,20 @@ input[type=submit] {
 /* skill  */
 .wrapper{
 
-    width: 191px;
+    width: 210px;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
     padding: 0px 390px 0 0px;
 
 }
 .skill {
-    margin-bottom: 9px;
+    margin-bottom: 15px;
     position: relative;
   overflow-x:hidden;
   
 }
 .skill > p {
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 700;
     color: #1a1716;
     margin: 0;
@@ -215,7 +215,7 @@ input[type=submit] {
     border-top: 4px solid #251291;
     top: -19px;
     padding: 0;
-    font-size: 9px;
+    font-size: 10px;
     padding: 3px 0;
     font-weight: 500;
 }
