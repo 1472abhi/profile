@@ -1,0 +1,276 @@
+html{
+    font-family: 'Open Sans',sans-serif;
+    background: #fefbe9;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    background: grey;
+}
+#container{
+    position: relative;
+    display: flex;
+}
+#profile{
+    flex: 15%;
+    display: block;
+    position: relative;
+    margin: 5% 2% 0 10%;
+    width: 100%;
+    height: 100%;
+}
+#info-cards{
+    flex: 55%;
+    display: block;
+    margin-top: 5%;
+    margin-right: 10%;
+    width: 100%;
+    height: 100%;
+}
+#image{
+    position: relative;
+    overflow: hidden;
+}
+#image,#profile-photo{
+    position: relative;
+    width: 186px;
+    border-radius: 105px;
+}
+
+#name{
+    font-size: 23px !important;
+    line-height: 20px !important;
+}
+#about,.card > ul > li{
+    padding: 0 0 0 15px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+#about{
+    font-size: 20px !important;
+    padding: 0 !important;
+}
+#name, #about > p{
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+}
+#email{
+    font-size: 15px !important;
+    font-weight: bold !important;
+    font-family: 'Cutive Mono',monospace;
+}
+#college,#email,#year-graduation,#education,#more-about,#phone{
+    color: #555;
+    font-size: 13.5px;
+}
+strong,span{
+    color: black;
+    font-size: 16px;
+}
+#social-links,#about{
+    display: inline-block;
+}
+#social-links{
+    margin-bottom: 12px;
+}
+#social-links a{
+    margin: 0 10px;
+}
+
+.fab{
+    font-size: 1.1em;
+}
+.fab,.fas{
+    color: whitesmoke;
+}
+#about > a{
+    top: 4px;
+    right: 8px;
+}
+.edit{
+    top: 19px;
+    right: 10px;
+}
+#about > a, .edit{
+    position: absolute;
+    font-size: 15px !important;
+}
+.stroke-transparent {
+ -webkit-text-stroke: 1px #000;
+ -webkit-text-fill-color: transparent;
+}
+
+.card{
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    padding: 15px 30px 30px 30px;
+    background-color: #e1eedd;
+}
+.card > p{
+    color: #0e141e;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.card > ul{
+    list-style-type: none;
+}
+.tags{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.tags ~ a{
+    display: none !important;
+}
+.tags span{
+    font-size: 14px;
+    font-weight: normal;
+    color: #0e141e;
+}
+.tags span span{
+    color: #738f93;
+}
+@media screen and (max-width:1090px){
+    #profile{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:850px){
+    #container{
+        display: block;
+    }
+    #profile{
+        width: 90%;
+    }
+    .card{
+        margin: 0 5%;
+        margin-bottom: 30px;
+    }
+}
+lable{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #183a1d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 24px;
+
+}
+/* skill  */
+.wrapper{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+margin:0 auto;
+padding: 0px 178px 0 0px;
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+  overflow-x:hidden;
+  
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:#251291;
+    display: block;
+    position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 80%;
+  
+}
+.skill-bar span{
+    position: absolute;
+    border-top: 5px solid #251291;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+  
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+/* SKILL 2 */
+.skill2{
+    width: 55%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 50%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 60%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 70%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+
+#foot {
+    height: 40px;
+    background-color: rgb(44, 45, 44);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+
+form{
+    padding: 0px 0 0 56px;
+
+}
